@@ -9,6 +9,20 @@
         font-size: 40px;
     }
 
+    #header nav {
+        justify-content: right;
+    }
+
+    #header nav label {
+        margin-right: 30px;
+    }
+
+    .wrapper-nav-home ul li {
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+    }
+
     .wrapper-nav-home ul {
         display: none;
         flex-direction: column;
@@ -44,8 +58,7 @@
     
     .about-me p {
         line-height: 30px;
-        text-align: justify;
-        max-width: 80%;
+        max-width: 85%;
     }
 
     .wrapper-technology h2 {
