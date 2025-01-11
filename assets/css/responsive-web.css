@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+
+    .menu-id {
+        display: none;
+    }
+
+    .bi-list {
+        color: white;
+        font-size: 40px;
+    }
+
+    .wrapper-nav-home ul {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #00000080;
+        box-shadow: 0px 4px 9px #0b77a1;
+        margin: 0;
+        padding: 20px;
+        overflow: hidden;
+        
+    }
+
+    .menu-id:checked + .menu-icon + .header-menu {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .wrapper-nav-home ul li a {
+        font-size: 18px;
+    }
+
+    
+    .about-me h2 {
+        font-size: 25px;
+    }
+    
+    .about-me p {
+        line-height: 30px;
+        text-align: justify;
+        max-width: 80%;
+    }
+
+    .wrapper-technology h2 {
+        font-size: 25px;
+    }
+    
+    .wrapper-card {
+        flex-direction: column;
+    }
+
+
+    .wrapper-projects > h2 {
+        font-size: 25px;
+    }
+
+    
+    .wrapper-projectscard .card {
+        padding: 30px;
+        max-width: 350px;
+        border-radius: 25px;
+    }
+
+    
+    .wrapper-footer-nav > ul > li > a {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .wrapper-footer > p {
+        font-size: 20px;
+    }
+    
+}

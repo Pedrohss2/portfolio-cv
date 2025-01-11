@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+.menu-id, .menu-icon {
+    display: none;
+}
+
 #header {
     margin-bottom: 150px;
 }
