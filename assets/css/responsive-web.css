@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
 
     .menu-id {
         display: none;
@@ -90,5 +90,4 @@
     .wrapper-footer > p {
         font-size: 20px;
     }
-    
 }
